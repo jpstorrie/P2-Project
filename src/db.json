@@ -1,14 +1,17 @@
 {
   "companyInfo": {
     "company_logo": "",
-    "about": "This is the about for a window cleaning company"
+    "about": "Your one stop shop for all your window servicing needs."
   },
-  "contact": {
-    "name": "Josiah P Storrie",
-    "email": "jpstorrie@gmail.com",
-    "phone_number": "13036696952",
-    "interested_in": "yeah"
-  },
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Josiah P Storrie",
+      "email": "jpstorrie@gmail.com",
+      "phone_number": "13036696952",
+      "interested_in": "yeah"
+    }
+  ],
   "reviews": [
     {
       "id": 1,

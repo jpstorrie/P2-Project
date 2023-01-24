@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react"
+import Alert from "./Alert"
 
 
 function Contact() {
@@ -14,7 +15,7 @@ function Contact() {
         interested_in: ""
     }
 
-
+    const [contacts, setContacts] = useState([])
     const [formData, setFormData] = useState(initVals)
 
     function onSubmit(e) {
@@ -29,14 +30,14 @@ function Contact() {
     }
 
     function postContact(obj){
-        fetch("http://localhost:3000/contact",{
+        setContacts(...contacts, obj)
+        fetch("http://localhost:3000/contacts",{
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(obj)
         })
             .then(r => r.json())
-            .then(setFormData(initVals))
-            .then(alert("Thank you, we will contact you soon!"))
+            .then(<Alert message={"Thank you, we will contact you soon!"}/>)
     }
 
 

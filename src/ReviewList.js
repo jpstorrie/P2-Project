@@ -23,7 +23,7 @@ function ReviewList() {
     return (
         <div >
             <h1 className="font-serif text-center text-4xl p-4">Reviews</h1>
-            <h4  className='text-center'>Check out our awesome reviews or <NavLink to="/reviews/new" className="font-mono">write your own!</NavLink></h4>
+            <h4  className='text-center font-extralight'>Check out our awesome reviews or <NavLink to="/reviews/new" className="font-bold hover:bg-cyan-900">write your own!</NavLink></h4>
             {allReviews}
         </div>
     )
