@@ -1,0 +1,28 @@
+{
+  "companyInfo": {
+    "company_logo": "image will go here",
+    "about": "This is the about"
+  },
+  "contact": {
+    "name": "Randy",
+    "email": "randy@gmail.com",
+    "phone_number": 123123123,
+    "interested_in": "Tracks"
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "title": "Latin Review",
+      "name": "JohnDoe",
+      "text": "Lorem Ipsum Dolor Sit Amet",
+      "rating": 2.5
+    },
+    {
+      "id": 2,
+      "title": "Latin Review no. 2",
+      "name": "JohnDoe",
+      "text": "Lorem Ipsum Dolor Sit Amet",
+      "rating": 10
+    }
+  ]
+}
