@@ -1,11 +1,16 @@
 
 function Review({ review }) {
     return (
-        <div className="card">
-            <h3>{review.title}</h3>
-            <p className="reviewName">{review.name}</p>
-            <p className="reviewText">{review.text}</p>
-            <p>{review.rating}</p>
+        
+        <div className="card bordered w-96 bg-base-1 shadow-xl p-3">
+            <div className="card-body">
+                <h2 className="card-title">{review.title}</h2>
+                <h5>{review.name}</h5>
+                <p>{review.text}</p>
+                <div className="card-actions justify-end">
+                    <p >Score: {review.rating}/10</p>
+                </div>
+            </div>
         </div>
     )
 }

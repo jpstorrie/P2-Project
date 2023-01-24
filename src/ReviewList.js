@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import Review from "./Review"
-import ReviewForm from "./ReviewForm"
 import { NavLink } from "react-router-dom"
 function ReviewList() {
     const [reviews, setReviews] = useState([])
@@ -15,12 +14,16 @@ function ReviewList() {
     
 
 
-    const allReviews = reviews.map(review => { return (<Review key={review.id} review={review} />) })
+    const allReviews = reviews.map(review => { return (
+    <div className='p-5 float-left'>
+    <Review key={review.id} review={review} />
+    </div>
+    ) })
 
     return (
-        <div>
-            <h1>Reviews</h1>
-            <h4>Check out our awesome reviews or <NavLink to="/reviews/new">write your own!</NavLink></h4>
+        <div >
+            <h1 className="font-serif text-center text-4xl p-4">Reviews</h1>
+            <h4  className='text-center'>Check out our awesome reviews or <NavLink to="/reviews/new" className="font-mono">write your own!</NavLink></h4>
             {allReviews}
         </div>
     )

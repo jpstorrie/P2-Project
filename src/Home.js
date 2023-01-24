@@ -1,15 +1,12 @@
 
-function Home() {
+function Home({ companyInfo }) {
+
+    const theAbout = companyInfo.about
+
     return (
         <div>
-            <h3>Leave A Review</h3>
-            <form>
-                <input type="text" placeholder="Review Title Here" /><br />
-                <input type="text" placeholder="Your Name Here" /><br />
-                <input type="text" placeholder="Leave your review here" /><br />
-                <input type="number" placeholder="Rating from 1-10" /><br />
-                <button type="submit">Submit</button>
-            </form>
+            <h1 className="font-serif text-center text-4xl p-4">Home</h1>
+            <p className="font-serif text-center text-xl p-4">{theAbout}</p>
         </div>
     )
 }

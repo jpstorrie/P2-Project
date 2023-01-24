@@ -1,9 +1,12 @@
+/* 
 :root {
   background-color: #121212;
-  /* background-image: url("https://media.architecturaldigest.com/photos/623dbec3925573a210bf3214/1:1/w_2592,h_2592,c_limit/GettyImages-157531695.jpg"); */
-  color: aqua
+  background-image: url("https://media.architecturaldigest.com/photos/623dbec3925573a210bf3214/1:1/w_2592,h_2592,c_limit/GettyImages-157531695.jpg"); 
+color: aqua
 }
 
+*/
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -17,8 +20,9 @@
 .left {
   float: left;
   flex: auto;
-}
+} */
 
+/* 
 .right {
   flex: auto;
   float: right;
@@ -35,4 +39,4 @@
   width: calc(33% - 2rem);
   float: left;
   box-shadow: 5px 5px 10px
-}
+} */
