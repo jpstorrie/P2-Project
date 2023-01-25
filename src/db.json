@@ -1,31 +1,52 @@
 {
   "companyInfo": {
     "company_logo": "",
-    "about": "Your one stop shop for all your window servicing needs."
+    "about": "Some basic business slogan with information that you usually don't care to read"
   },
   "contacts": [
     {
       "id": 1,
       "name": "Josiah P Storrie",
       "email": "jpstorrie@gmail.com",
-      "phone_number": "13036696952",
+      "phone_number": "303-669-6952",
       "interested_in": "yeah"
     }
   ],
   "reviews": [
     {
-      "id": 1,
-      "title": "Latin Review",
-      "name": "JohnDoe",
-      "text": "Lorem Ipsum Dolor Sit Amet",
-      "rating": 2.5
+      "title": "I love your window cleaning",
+      "name": "Rutherford",
+      "text": "Everyday I want you to clean my windows, clean windows give me a special tingly feeling",
+      "rating": "10",
+      "id": 5
     },
     {
-      "id": 2,
-      "title": "Latin Review no. 2",
-      "name": "JohnDoe",
-      "text": "Lorem Ipsum Dolor Sit Amet",
-      "rating": 10
+      "title": "Mid",
+      "name": "Harold",
+      "text": "Shit's pretty mid",
+      "rating": "5",
+      "id": 4
+    },
+    {
+      "title": "My tracks use to be dirty",
+      "name": "Jehoiakim",
+      "text": "I always wanted to get the stuff out of my window tracks and he sat there and made me lick it all out.",
+      "rating": "10",
+      "id": 6
+    },
+    {
+      "title": "I love this man",
+      "name": "Richard",
+      "text": "I am deeply in love with how you wash windows... The way you glide with that squeegee does something to me.",
+      "rating": "10",
+      "id": 7
+    },
+    {
+      "title": "I'm your father",
+      "name": "Lord Vader",
+      "text": "I am your father.\nNOOOOOOOOOOOOOOOOOOOOOOOO",
+      "rating": "8",
+      "id": 8
     }
   ]
 }
