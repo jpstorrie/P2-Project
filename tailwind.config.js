@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
+    fontFamily: {
+      all:["papyrus"]
+    },
     extend: {},
   },
   plugins: [require('daisyui')],

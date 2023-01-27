@@ -1,12 +1,13 @@
+import { NavLink } from 'react-router-dom'
 import NavBar from './NavBar'
 // import {NavLink} from 'react-router-dom'
 
 function Header({ companyInfo, onChangeTheme }) {
     return (
-        <div className="flow-root pb-7 bg-blue-700 pt-3 pl-2 pr-2">
+        <div className="flow-root pb-2 bg-blue-700 pt-3 pl-2 pr-2">
             <span>
-                <h1 className="float-left pt-1 text-5xl font-mono">Ascend Window Cleaning </h1>
-                <NavBar className="" onChangeTheme={onChangeTheme}/>
+            <h1 className="font-all float-left pt-2 text-6xl"><NavLink to="/">Ascend Window Cleaning </NavLink></h1>
+                <NavBar onChangeTheme={onChangeTheme}/>
             </span>
         </div>
     )
